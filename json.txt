@@ -1,0 +1,15 @@
+[
+	{
+		"name":"1Password",
+		"url":"https://my.1password.com/profile",
+		"difficulty":"easy",
+		"notes":"Login to your account, go to profile, click 'Permanently Delete Account'. Confirm by entering 'I am sure' and click 'Delete Account'.",
+		"domains":["1password.com"]
+	},
+	{
+		"name":"280daily",
+		"url":"https://280daily.com/settings/delete",
+		"difficulty":
+		"easy","notes":"Enter your account password and click on 'DELETE ACCOUNT'.",
+		"domains":["280daily.com"]
+	},

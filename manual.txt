@@ -1,0 +1,34 @@
+//DB Design
+
+1-Create db deleteme from Sqlite gui
+
+2-create tables schema "deleteme_schema_dump.sql"
+
+3-open     sqlite3 db/deleteme.db
+	       .databases
+	       .help
+	
+4-run .read db/deleteme_schema_dump.sql
+
+5-Seeding some data in deleteme_data_dump.sql
+
+6-run .read db/deleteme_data_dump.sql
+
+________________________________________________________________________________________________________
+
+//DB Interface Design 
+1-working on the Engin class :
+	
+	import deleteme.database as database
+	engine = database.Engine()
+	
+	engine.remove_database()
+	engine.create_tables()
+	engine.clear()
+	engine.populate_tables()
+	engine.create_websites_table()
+	engine.create_websites_table()
+	
+
+2-Connection class :
+
